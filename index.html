@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="witcher-logo">
+        <img src="witcher-logo.jpg" alt="">
+    </div>
+    <div class="quiz-container" id="quizz">
+        <div class="quiz-header">
+            <h1>Quiz z wiedzy o wiedźminie</h1>
+            <h2 id="question">Pytanie jak coś tam coś</h2>
+            <div class="images-container">
+                <img src="" alt="" id="images">
+            </div>
+            <ul>
+                <li class="first">
+                    <input type="radio" id="a" name="answer" class="answer">
+                    <label id="a_answer" for="a">Question</label>
+                </li>
+                <li>
+                    <input type="radio" id="b" name="answer" class="answer">
+                    <label id="b_answer" for="b">Question</label>
+                </li>
+                <li>
+                    <input type="radio" id="c" name="answer" class="answer">
+                    <label id="c_answer" for="c">Question</label>
+                </li>
+                <li>
+                    <input type="radio" id="d" name="answer" class="answer">
+                    <label id="d_answer" for="d">Question</label>
+                </li>
+            </ul>
+
+        </div>
+        <div class="next">
+            <a class="btn btn1" id="next-question">Następne pytanie</a>
+        </div>
+        <p class="error-info"></p>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
